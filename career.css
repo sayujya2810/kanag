@@ -1,0 +1,12 @@
+#main-content{
+    margin-top: 9.5rem;
+    margin-left: 10%;
+    padding: 0 5%;
+    margin-bottom: 1rem;
+    /* padding-right: 40%; */
+    /* min-width: 60%; */
+}
+.btn-primary{
+    margin-top: 1rem;
+    background-color: purple;
+}

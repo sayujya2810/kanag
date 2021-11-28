@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin-top: 10rem;
+}
+
+#vids{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#vids .inner{
+    margin: 10rem;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nvbr{
+    background-color: purple;
+}
+
+
+
+#navbarsExample09{
+    margin-top: 10rem;
+}
+
+#navbarsExample09 :hover{
+    background-color: #fff;
+}
+.nvbr {
+    transition: all 0.4s;
+    background-color: purple;
+}
+
+.nvbr .nav-link {
+    color: #fff;
+}
+
+.nvbr .nav-link:hover,
+.nvbr .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nvbr .nvbr-brand {
+    color: #fff;
+}
+
+
+/* Change nvbr styling on scroll */
+.nvbr.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nvbr.active .nav-link {
+    color: #555;
+}
+
+.nvbr.active .nav-link:hover,
+.nvbr.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.nvbr.active .nvbr-brand {
+    color: #555;
+}
+
+
+/* Change nvbr styling on small viewports */
+@media (max-width: 991.98px) {
+    .nvbr {
+        background: #fff;
+    }
+
+    .nvbr .nvbr-brand, .nvbr .nav-link {
+        color: #555;
+    }
+}
+
+.container{
+    margin-top: 10rem;
+}

@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="stylesheet" href="responsiveNavbar.css">
+    <title>Kanag E.N.T Super Speciality Meerut</title>
+    <link rel = "icon" href = "images/logo2.png" type = "image/x-icon">
+
+    <style>
+      #appointment{
+        display: flex;
+        justify-content: space-between;
+      }
+
+      body{min-height:200vh;}
+      .navbar-default{
+        transition:500ms ease;
+        background:transparent;
+      }
+      .navbar-default.scrolled{
+        background:#000;
+      }
+  </style>
+  </head>
+  <body>
+    <!-- nvbr-->
+    <header class="hdr1">
+      <!-- <nav class="nvbr nvbr-expand-lg fixed-top py-3">
+        <button type="button" data-toggle="collapse" data-target="#nvbrSupportedContent" aria-controls="nvbrSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="nvbr-toggler nvbr-toggler-right" autofocus><i class="fa fa-bars"></i></button>
+
+        <div id="nvbrSupportedContent" class="collapse nvbr-collapse">
+          <ul class="nvbr-nav ml-auto">
+            <a class="navbar-brand" href="index.html">
+              <img src="images/logo.png" />
+            </a>
+            <li class="nv-item"><a href="tel:91%209997811114"class="nav-link text-uppercase font-weight-bold"><i class="fas fa-phone "></i>+91 9997811114</a></li>
+            <li class="nv-item"><a href="tel:01212977182" class="nav-link text-uppercase font-weight-bold"><i class="fas fa-phone "></i>01212977182 </a></li>
+            <li class="nv-item"><a href="tel:01212517119" class="nav-link text-uppercase font-weight-bold"><i class="fas fa-phone "></i>01212527119 </a></li>
+            <li class="nv-item"><a href="mailto:kanaghospital@gmail.com" class="nav-link text-uppercase font-weight-bold"><i class="fas fa-envelope"></i>kanaghospital@gmail.com</a></li>
+            <li class="nv-item"><a href="https://g.page/kanagentcentre?share" class="nav-link text-uppercase font-weight-bold"><i class="fas fa-map-marker-alt"> </i> 244-A Near Meerut College, Kuttiya <br>Crossing Hazari ki Piyau Road, Civil Lines Meerut.</br></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+    <div class="nav fixed-top" style="position: fixed;">
+      <input type="checkbox" id="nav-check">
+      <div class="nav-header">
+        <div class="nav-title">
+          <img src="images/logo.png" style="height: 80px;"/>
+        </div>
+      </div>
+      <div class="nav-btn">
+        <label for="nav-check">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+
+      <div class="nav-links" style="">
+            <a href="tel:91%209997811114"class=""><i class="fas fa-phone "></i>+91 9997811114</a>
+            <a href="tel:01212977182" class=""><i class="fas fa-phone "></i>01212977182 </a>
+            <a href="tel:01212517119" class=""><i class="fas fa-phone "></i>01212527119 </a>
+            <a href="mailto:kanaghospital@gmail.com" class=""><i class="fas fa-envelope"></i>kanaghospital@gmail.com</a>
+            <a href="https://g.page/kanagentcentre?share" class=""><i class="fas fa-map-marker-alt"> </i> 244-A Near Meerut College, Kuttiya <br>Crossing Hazari ki Piyau Road, Civil Lines Meerut.</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sidebar -->
+  <div class="container-fluid" >
+    <div class="row d-flex d-md-block flex-nowrap wrapper" >
+      <div class="col-md-3 float-left col-1 pl-0 pr-0 collapse width show" id="sidebar">
+        <div class="list-group border-0 text-center text-md-left">
+          <!-- <a href="#menu1" class="list-group-item d-inline-block collapsed" data-toggle="collapse" aria-expanded="false"><i class="fa fa-dashboard"></i> <span class="d-none d-md-inline">Dashboard</span> </a> -->
+          <div class="collapse" id="menu1" data-parent="#sidebar">
+            <a href="#menu1sub1" class="list-group-item" data-toggle="collapse" aria-expanded="false">Subitem 1 </a>
+            <div class="collapse" id="menu1sub1" data-parent="#menu1">
+              <a href="#" class="list-group-item" data-parent="#menu1sub1">Subitem a</a>
+              <a href="#" class="list-group-item" data-parent="#menu1sub1">Subitem b</a>
+              <a href="#menu1sub1sub1" class="list-group-item" data-toggle="collapse" aria-expanded="false">Subitem c </a>
+              <div class="collapse" id="menu1sub1sub1">
+                <a href="#" class="list-group-item" data-parent="#menu1sub1sub1">Subitem c.1</a>
+                <a href="#" class="list-group-item" data-parent="#menu1sub1sub1">Subitem c.2</a>
+              </div>
+              <a href="#" class="list-group-item" data-parent="#menu1sub1">Subitem d</a>
+              <a href="#menu1sub1sub2" class="list-group-item" data-toggle="collapse" aria-expanded="false">Subitem e </a>
+              <div class="collapse" id="menu1sub1sub2">
+                <a href="#" class="list-group-item">Subitem e.1</a>
+                <a href="#" class="list-group-item">Subitem e.2</a>
+              </div>
+            </div>
+            <a href="#menu1sub2" class="list-group-item" data-toggle="collapse" aria-expanded="false">Subitem 2</a>
+            <div class="collapse" id="menu1sub2" data-parent="#menu1">
+              <a href="#" class="list-group-item" data-parent="#menu1sub1">Subitem 1 a</a>
+              <a href="#" class="list-group-item" data-parent="#menu1sub1">Subitem 2 b</a>
+              <a href="#menu1sub1sub1" class="list-group-item" data-toggle="collapse" aria-expanded="false">Subitem 3 c </a>
+              <div class="collapse" id="menu1sub1sub1">
+                <a href="#" class="list-group-item" data-parent="#menu1sub1sub1">Subitem 3 c.1</a>
+                <a href="#" class="list-group-item" data-parent="#menu1sub1sub1">Subitem 3 c.2</a>
+              </div>
+              <a href="#" class="list-group-item" data-parent="#menu1sub1">Subitem 4 d</a>
+              <a href="#menu1sub1sub2" class="list-group-item" data-toggle="collapse" aria-expanded="false">Subitem 5 e </a>
+              <div class="collapse" id="menu1sub1sub2">
+                <a href="#" class="list-group-item" data-parent="#menu1sub1sub2">Subitem 5 e.1</a>
+                <a href="#" class="list-group-item" data-parent="#menu1sub1sub2">Subitem 5 e.2</a>
+              </div>
+            </div>
+            <a href="#" class="list-group-item">Subitem 3</a>
+          </div>
+          <a href="index.html" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-heart"></i> <span class="d-none d-md-inline">Home</span></a>
+          <a href="gallery.html" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-list"></i> <span class="d-none d-md-inline">Gallery</span></a>
+          <a href="doctor.html" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-clock-o"></i> <span class="d-none d-md-inline">Doctors</span></a>
+          <a href="news.html" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-th"></i> <span class="d-none d-md-inline">News</span></a>
+          <a href="surgeries.html" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-gear"></i> <span class="d-none d-md-inline">Surgeries</span></a>
+          <a href="contact.html" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-gear"></i> <span class="d-none d-md-inline">Contact Us</span></a>
+          <a href="career.html" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-gear"></i> <span class="d-none d-md-inline">Career</span></a>
+          <!-- <a href="#" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-calendar"></i> <span class="d-none d-md-inline">Link</span></a>
+            <a href="contact.html" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-gear"></i> <span class="d-none d-md-inline">Contact Us</span></a>              <!-- <a href="#" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-calendar"></i> <span class="d-none d-md-inline">Link</span></a>
+              <a href="#" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-envelope"></i> <span class="d-none d-md-inline">Link</span></a>
+              <a href="#" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-bar-chart-o"></i> <span class="d-none d-md-inline">Link</span></a>
+              <a href="#" class="list-group-item d-inline-block collapsed" data-parent="#sidebar"><i class="fa fa-star"></i> <span class="d-none d-md-inline">Link</span></a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--header--->
+      <!--carousel--->
+
+      <div id="appointmentBtn">
+        <span class="my-2 my-md-0" >
+          <a onclick="document.getElementById('id01').style.display='block'" style="width:auto;"class="myButton shadow">Book An Appointment Now!</a>
+        </span>
+      </div>
+
+
+      <div id="id01" class="modal" >
+
+
+
+        <form class="modal-content animate col-auto " style="border-radius: 9px; height: 95%; width: 90%; margin-top: 0; overflow-y: auto;" action="https://formspree.io/f/xpzknqqj" method="POST">
+
+
+          <div class="container" style="border-radius: 9px;">
+            <h2 id="appointment"><span>Appointment Form</span><span style="margin: 1rem;" onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span></h2>
+
+            <label for="name"><b>Patient Name : </b></label>
+            <input type="text" placeholder="Enter Patient's Name" name="name" required>
+
+            <label for="email"><b>Email Id : </b></label>
+            <input type="Email" placeholder="Enter E-mail Id" name="email" required>
+
+            <label for="Contact No."><b>Contact No : </b></label>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+
+            <label for="appointment"><b>Appointment Type : </b></label>
+            <select for="Checkup" type="list" name="appointment">
+              <option value="Select Appointment Type">Select Appointment Type</option>
+              <option value="Dental">Dental</option>
+              <option value="ENT">ENT</option>
+              <option value="Gynecology and Obstetrics">Gynecology and Obstetrics</option>
+              <option value="General and Laparoscopic Surgeon">General and Laparoscopic Surgeon</option>
+              <option value="Medicine">Medicine</option>
+              <option value="Cardiology">Cardiology</option>
+              <option value="Neurosurgery">Neurosurgery</option>
+              <option value="Oral & Maxillofacial Surgery">Oral & Maxillofacial Surgery</option>
+              <option value="Orthopedics">Orthopedics</option>
+              <option value="Pediatrics and Neonatology">Pediatrics and Neonatology</option>
+              <option value="Physiotherapy">Physiotherapy</option>
+              <option value="Pathology">Pathology</option>
+              <option value="Plastic and Cosmetic Surgery">Plastic and Cosmetic Surgery</option>
+              <option value="Radiology">Radiology</option>
+              <option value="Urology">Urology</option>
+            </select>
+
+            <label for="Date"><b>Date : </b></label>
+            <input type="Date" placeholder="dd-mm-yyyy" name="date" required>
+
+            <button type="submit">Take Appointment</button>
+          </div>
+
+        </form>
+      </div>
+
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 slideshow-imgs img-fluid " src="images/kanag2.png"  alt="First slide" width="500" height="800">
+            <div class="carousel-caption dark">
+              <h3 class="text-justify d-none d-sm-block">Lorem Ipsum is simply dummy text of the<br> printing and typesetting industry.</h3>
+              <p class="text-justify d-none d-sm-block">Ambitioni dedisse scripsisse iudicaretur. Cras mattis<br> iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 slideshow-imgs img-fluid" src="images/kanag1.jpeg" alt="Second slide" width="500" height="800">
+            <div class="carousel-caption">
+              <h3 class="text-justify d-none d-sm-block">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.</h3>
+              <p class="text-justify d-none d-sm-block">Ambitioni dedisse scripsisse iudicaretur. Cras mattis<br> iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 slideshow-imgs img-fluid" src="images/kanag4.png" alt="Third slide" width="500" height="800">
+            <div class="carousel-caption">
+              <h3 class="text-justify d-none d-sm-block">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry.</h3>
+              <p class="text-justify mt-4 d-none d-sm-block">Ambitioni dedisse scripsisse iudicaretur. Cras mattis<br> iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--carousel--->
+      <!--section--->
+      <section>
+        <div class="col-lg-12">
+          <div class="doctor_detiles text-center">
+            <h2><u>VISION STATEMENT</u></h2>
+            <p><b>The vision behind the success of KANAG.</b>(<b>KA</b>an-<b>NA</b>ak-<b>G</b>ala)</p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="post-thumb">
+            <img src="images/dr1.png" class="img-fluid mt-5" />
+          </div>
+          <div class="post-content">
+            <div class="col-lg-6 mt-5">
+              <div class="about_detiles mt-5">
+                <h3><span>DR. ANKUR GUPTA</span></h3><h4>Senior Surgeon ENT</h4><h5>Founder Director</h5>
+                <p class="mt-3"><b>Dr. Ankur Gupta completed his MBBS from LLRM Medical College Meerut with gold medals in
+                  medicine and surgery. He completed his Masters from PGIMS Rohtak before moving on to Mumbai.</b>
+                  He worked at Tata Memorial Institute in the early 90s.</p>
+                  <p><b>He gained valuable surgical and management experience
+                    under Dr. M.V. Kirtane at KEM and Hinduja Hospitals.</b> He moved on to Meerut his home town started his private practice.</p>
+                    <p> <b>He is the Pioneer in ENT in Meerut who started with Endoscopic, Microscopic diagnostics, and Surgical work.</b>
+                      He excelled in audiology with a designated audiology Lab Hearing Solutions. He realized his dream in the form of
+                      KANAG.</p>
+                      <p>He is an equally dedicated Philanthropist who has held more than 200 camps and charitable surgeries in
+                        memory of his late father Dr. Mahendra Kumar Gupta who was himself EX KGMC pass out.</p></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </section>
+              <!--section--->
+              <section class="background_tester">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <div class="text-center mt-5 tester_content ">
+                        <h3>Hospital Empanelment</h3>
+                        <p><u>Kanag E.N.T Super Speciality Meerut</u> is on the network under the following insurance providers for extension of cashless facility to Member customers.</p>
+                      </div>
+                    </div>
+                    <!--<div class="col-lg-3 float-right">
+                      <img src="images/feedback.png" class="image_control" width="240px" height="100px"/>
+                    </div>-->
+                    <!-- 3D Slideshow Section -->
+                    <marquee behavior="scroll" direction="left" scrollamount="10">
+                      <img src="images/ins1.png" width="250" height="150" alt="Insurance">&emsp;
+                      <img src="images/ins2.jpg" width="280" height="150" alt="Insurance">&emsp;
+                      <img src="images/ins3.jpg" width="250" height="150" alt="Insurance">&emsp;
+                      <img src="images/ins4.png" width="250" height="150" alt="Insurance">&emsp;
+                      <img src="images/ins5.jpg" width="250" height="150" alt="Insurance">&emsp;
+                      <img src="images/ins6.png" width="250" height="150" alt="Insurance">&emsp;
+                      <img src="images/ins7.jpeg" width="250" height="150" alt="Insurance">&emsp;
+                      <img src="images/ins8.png" width="250" height="150" alt="Insurance">&emsp;
+                      <img src="images/ins9.png" width="250" height="150" alt="Insurance">&emsp;
+                      <img src="images/ins10.jpg" width="250" height="150" alt="Insurance">
+
+                    </marquee>
+                  </section>
+                  <!--section--->
+                  <section class="gallery_section my-5" id="ourServices">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <div class="our_service mt-5">
+                            <h3>Our Services</h3>
+                            <p>Since we write our source CSS in Sass all our media queries are available via Sass mixins:</p>
+                          </div>
+                        </div>
+                        <div class="col-md-9">
+                          <div class="gallary_main my-5">
+                            <div class="container">
+                              <div class="row">
+                                <a href="#" data-toggle="lightbox" data-gallery="gallery" class="col-md-4 col-sm-6 col-12">
+                                  <div class="img_over">
+                                    <img src="images/surgery1.jpg" class="img-fluid rounded ">
+                                    <div class="overlay text-left">ENT, Head and Neck Surgery <i class="fas fa-chevron-circle-right ml-1"></i> </div>
+                                  </div>
+                                </a>
+                                <a href="#" data-toggle="lightbox" data-gallery="gallery" class="col-md-4 col-sm-6 col-12">
+                                  <div class="img_over">
+                                    <img src="images/physio.jpg" class="img-fluid rounded ">
+                                    <div class="overlay text-left">Physiotherapy <i class="fas fa-chevron-circle-right ml-1"></i> </div>
+                                  </div>
+                                </a>
+                                <a href="#" data-toggle="lightbox" data-gallery="gallery" class="col-md-4 col-sm-6 col-12">
+                                  <div class="img_over">
+                                    <img src="images/xray1.jpg" class="img-fluid rounded ">
+                                    <div class="overlay text-left">X-Ray, ECG <i class="fas fa-chevron-circle-right ml-1"></i> </div>
+                                  </div>
+                                </a>
+
+                                <a href="#" data-toggle="lightbox" data-gallery="gallery" class="col-md-4 col-sm-6 col-12">
+                                  <div class="img_over">
+                                    <img src="images/vertigo1.jpg" class="img-fluid rounded ">
+                                    <div class="overlay text-left">Vertigo Lab and Voice Clinic<i class="fas fa-chevron-circle-right ml-1"></i> </div>
+                                  </div>
+                                </a>
+                                <a href="#" data-toggle="lightbox" data-gallery="gallery" class="col-md-4 col-sm-6 col-12">
+                                  <div class="img_over">
+                                    <img src="images/hearing2.jpg" class="img-fluid rounded ">
+                                    <div class="overlay text-left">Audiology and Hearing Aids <i class="fas fa-chevron-circle-right ml-1"></i> </div>
+                                  </div>
+                                </a>
+                                <a href="#" data-toggle="lightbox" data-gallery="gallery" class="col-md-4 col-sm-6 col-12">
+                                  <div class="img_over">
+                                    <img src="images/pain.jpg" class="img-fluid rounded ">
+                                    <div class="overlay text-left">Pain Management<i class="fas fa-chevron-circle-right ml-1"></i> </div>
+                                  </div>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <!--section--->
+
+                  <!--section--->
+                  <!--section--->
+                  <!--<section class="blog">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-12">
+                          <div class="blog_doctor text-center mt-5">
+                            <h3> Kanag in the papers</h3>
+                            <p>Since we write our source CSS in Sass all our media queries are available via<br> Sass mixins making making it look like readable English</p>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="blog_view my-5">
+                              <div class="row">
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                                  <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 mt-5">
+                                      <div class="blog_bg">
+                                        <img src="images/news1.jpg" alt="" class="img-responsive image  shadow">
+                                        <div class="overlay  d-flex align-items-center">
+                                          <i class="fas fa-chevron-circle-right  mx-auto"></i>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 mt-5">
+                                      <div class="blog_detils">
+                                        <p class="time_data"> 12 Oct 2018</p>
+                                        <h4>The standard Lorem Ipsum passage</h4>
+                                        <p>In Sass all our media queries are available via Sass mixins making making it look like readable English</p>
+                                        <a href="#" class="myButton shadow"> Read More</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6 mt-5">
+                        <div class="blog_bg">
+                          <img src="images/news1.jpg" alt="" class="img-responsive image  shadow">
+                          <div class="overlay  d-flex align-items-center">
+                            <i class="fas fa-chevron-circle-right  mx-auto"></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 mt-5">
+                        <div class="blog_detils">
+                          <p class="time_data"> 12 Oct 2018</p>
+                          <h4>The standard Lorem Ipsum passage</h4>
+                          <p>In Sass all our media queries are available via Sass mixins making making it look like readable English</p>
+                          <a href="#" class="myButton shadow"> Read More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+    <!--section--->
+    <!--footer--->
+    <footer class="section footer-classic main_footer py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="footer_first">
+              <h3 class="mb-3">About Kanag ENT</h3>
+              <p>We are pleased to introduce KANAG ENT SUPER SPECIALITY CENTRE is a 15 bedded single –specialty with ultra-modern equipment offering the widest range of medical facilities under one roof, catering to patients’ all personal care & service.</p>
+              <img class="brand-logo-light" src="images/bblogo.png" alt="" class="img-fluid"></a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h3 class="mb-3">Our Service</h3>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul class="nav-list">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Projects</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contacts</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul class="nav-list">
+                  <li><a href="#">Media queries</a></li>
+                  <li><a href="#">Sass mixins</a></li>
+                  <li><a href="#">Making</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="contact_us">
+              <h3 class="mb-3">Contacts Us</h3>
+              <p class="contact-list"> <a href="tel:91%209997811114"><i class="fas fa-phone "> Mobile Number:</i> +91 9997811114 </p></a>
+              <p class="contact-list"> <a href="tel:01212977182"><i class="fas fa-phone "> Phones:</i> 01212977182, 01212527119 </p></a>
+              <p class="contact-list"><a href="mailto:kanaghospital@gmail.com"><i class="fas fa-envelope"> Email:</i> kanaghospital@gmail.com</p></a>
+              <p class="contact-list"><a href="https://g.page/kanagentcentre?share"> <i class="fas fa-map-marker-alt"> Address:</i> 244-A Near Meerut College, Kuttiya Crossing Hazari ki Piyau Road, Civil LInes Meerut.</p></a>
+              <a href="https://www.facebook.com/kanagentcenter" class="myButton shadow text-center py-2"> <i class="fab fa-facebook-f"></i> </a>
+              <a href="https://twitter.com/ent_kanag" class="myButton shadow text-center pt-2"> <i class="fab fa-twitter"></i> </a>
+              <a href="https://in.linkedin.com/company/kanag-ent-super-speciality-centre?trk=public_jobs_topcard_logo" class="myButton shadow text-center pt-2"> <i class="fab fa-linkedin-in"></i> </a>
+              <a href="https://www.instagram.com/kanagspecialitycentre/" class="myButton shadow text-center pt-2"> <i class="fab fa-instagram"></i> </a>
+              <a href="https://www.youtube.com/channel/UCjJMRzc-IzVaPT66t9B3Pqg" class="myButton shadow text-center pt-2"> <i class="fa fa-youtube-play"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--footer--->
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="js/jquery.counterup.js"></script>
+    <!-- <script src="jquery-3.3.1.slim.min.js"></script> -->
+    <!-- <script src="https://script.google.com/macros/library/d/1r_svPSI80uA_cWrRM6Zyrl6IV6iUwtX-AWJCLwvd2oIS_yoIOqZSr-jU/3"></script> -->
+    <!-- <script src="bootstrap.bundle.min.js"></script> -->
+    <script src="responsiveNavbar.js"></script>
+
+  </body>
+
+  </html>
